@@ -1,0 +1,270 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(http://epmgaa.media.clients.ellingtoncms.com/img/photos/2015/06/11/lg_tch_west_campus_front.jpg);
+    height: 100vh;
+    background-size: cover;
+   
+    
+}
+.div{
+    font-size: large;
+
+    
+}
+ul{
+   float: right;
+   margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+text-decoration: none;
+color: black;
+font-size: larger;
+padding: 5px 20px;
+
+margin-left: 12px;
+margin-top: 12px;
+
+}
+ul li a:hover{
+    text-decoration: underline;
+  background-color: burlywood;
+  transition: 0.8s  ease-in-out;
+  background: lemonchiffon;
+    
+}
+ h1{
+    text-align: center;
+    padding:5px 200px 50px;
+    color: blue;
+    font-weight: bold;
+    padding: 5px 370px;
+    font-size: 250%;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.G4kuVnRHSgOSFfivOyfMiQHaEn&pid=Api&P=0);
+ }
+ h3{
+    
+color: black;
+position: absolute;
+top: 8px;
+left: 16px;
+font-size: 18px;
+background-color:greenyellow;
+
+
+
+ }
+ p{
+    font-size: 250%;
+   text-align: center;
+   font-weight: 700;
+   color: aqua;
+   
+ }
+ .container{
+    width: 600px;
+    border: 2px solid white;
+    
+    
+  
+    
+    
+    color: black;
+    margin-left: 350px;
+    display: flex;
+   
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows: auto auto auto auto;
+    justify-content: space-between;
+    font-weight: 800;
+    font-size: x-large;
+    
+    margin-top: 30px;
+    margin-top: 46px;
+
+ }
+   .STRING h2{
+    color: aqua;
+   
+   
+    color: blue;
+    font-weight: bold;
+    padding: 5px 370px;
+    font-size: 250%;
+    
+   } 
+.p3{
+    color: black;
+    text-align: left;
+  font-size: xx-large;
+  background-color: azure;
+}
+.p1{
+    color: black;
+    font-size: xx-large;
+    background-color: blanchedalmond;
+}
+.p3 p5{
+    color: brown;
+ padding-right: 500%;
+}
+.p1 p4{
+    background-color: blanchedalmond;
+    color: blueviolet;
+    
+}
+.box :hover{
+    text-decoration: underline;
+    background: lemonchiffon;
+}
+
+
+.container :hover{
+
+    text-decoration: underline;
+   
+transition: 0.8s ease-in-out;
+
+}
+
+.card{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    background: #333;
+    border-radius: circle;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+.card:hover{
+    width: 600px;
+    transition-delay: 0s;
+}
+.card .circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: greenyellow;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .circle::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.card .circle .logo{
+    position: relative;
+    width: 200px;
+    transition: 0.3s;
+    transition-delay: 0.5s;
+}
+.card:hover .circle .logo{
+    transform: scale(0);
+    transition-delay: 0s;
+}
+.content{
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 40px;
+    opacity: 0;
+    transition: 0.5s;
+    visibility: hidden;
+}
+.card:hover .content{
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+    text-align: center;
+    transition-delay: 0.6s;
+}
+.content h2{
+    color: aliceblue;
+    font-size: xx-large;
+}
+.content a{
+    position: relative;
+    color: black;
+    background-color: aliceblue;
+    padding: 10px 80px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: 500;
+   
+}
+.button{
+    width: 900px;
+    display: inline;
+}
+.menu{
+    display: none;
+    text-decoration: underline;
+}
+.container  :hover .menu{
+    display: block;
+    position: absolute;
+    background :  lightcyan;
+    margin-top: 10x;
+    margin-left: -5px;
+}
+.container  :hover .menu ul li{
+    display: block;
+    margin: 10px;
+}
+.star{
+    display: none;
+    text-decoration: underline;
+}
+.container :hover .star{
+    display: block;
+    position: absolute;
+    background :  lightcyan;
+    margin-top: 10x;
+    margin-left: -5px;
+}
+.container :hover .star ul li{
+    display: block;
+    margin: 10px;
+}
+.fun{
+background-image: url(https://tse4.mm.bing.net/th?id=OIP.w9TCPNRPGfP8PfK0Vw2eBAHaEK&pid=Api&P=0);
+    height: 55vh;
+    background-size: cover;
+}
+.fun ul li{
+    margin-right: 120px;
+  
+    margin-left: 14px;
+    color: plum;
+}
+H2{
+    text-align: center;
+  font-size: xx-large;
+    color: beige;
+}
+.kill{
+    background-color: black;
+height: 60vh;   
+color: aliceblue; 
+}
+p-3{
+    font-size: x-large;
+    color: bisque;
+}
